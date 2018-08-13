@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Page 3</title>
+    <link rel="stylesheet" href="./PersonalWebsitePage3.css">
+    <script src="./Personalwebsitepage3.js"></script>
+</head>
+
+<body>
+    <!-- The grid: four columns -->
+    <div class="row">
+        <div class="column">
+            <img src="Moab.jpg" alt="Moab" onclick="openImg(this);">
+        </div>
+        <div class="column">
+            <img src="Forest1.jpg" alt="Forest" onclick="openImg(this);">
+        </div>
+        <div class="column">
+            <img src="Oceansplash.jpg" alt="Ocean" onclick="openImg(this);">
+        </div>
+        <div class="column">
+            <img src="Ocean1.jpg" alt="Sea" onclick="openImg(this);">
+        </div>
+    </div>
+
+    <!-- The expanding image container -->
+    <div class="container">
+        <!-- Close the image -->
+        <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+
+        <!-- Expanded image -->
+        <img id="expandedImg" style="width:100%">
+
+        <!-- Image text -->
+        <div id="imgtext"></div>
+    </div>
+
+
+</body>
+
+<a href="PersonalWebsite.html ">Go back Home</a>
+
+</html>

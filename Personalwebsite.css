@@ -1,0 +1,109 @@
+
+
+
+
+
+/* Start of dual photos */
+:root {
+    /*initialize variables as will be used on the left side, standard state*/
+    --bg-color: rgba(44, 129, 240, 0.0);
+    --bg-url: url('BriMomT.jpg');
+    --button-hover-color: white (245, 239, 239, 0.982);
+  }
+  
+  html, body {
+    padding:0;
+    margin:0;
+    font-family: 'Bad Script', 'Arial Narrow', Arial, sans-serif;
+    width: 100%;
+    height: 100%;
+  }
+
+  
+  
+  h1 {
+    font-size: 4rem;
+    color: #fff;
+    white-space: nowrap;
+  }
+  
+ 
+  
+  button:hover{
+    /*sets the hover status of the buttons to a variable value*/
+    background-color: var(--button-hover-color);
+    border-color: var(--button-hover-color); 
+    cursor:pointer;
+  }
+  
+  .container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    oveflow:hidden;
+  }
+  
+  .split {
+    transition:all 1s ease;
+    flex:1 1 auto;
+    display:flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items:center;
+    /*sets the background image and color mask, defaulted to the values corresponding to the left*/
+    background: 
+      linear-gradient(var(--bg-color),var(--bg-color)) repeat-x top / 100% 100%,
+      var(--bg-url) center center no-repeat / cover;
+  }
+  
+  .left { /*NO ADITIONAL STYLES NEEDED*/}
+  
+  .right {
+    /*ONLY CHANGE THE VARIABLE VALUES, and they'll apply to the correct children! :D*/
+    --bg-color: rgba(10, 88, 52, 0.2);
+    --bg-url:url('Moab.jpg');
+    --button-hover-color: rgba(92, 92, 92, 0.3);
+  }
+  
+  .split:hover{
+    /*grows an element on hover*/
+    flex-grow:10;
+  }
+  
+  
+  @media(max-width:500px){
+    /*switch flex direction for smaller screens*/
+    .container{
+      flex-direction:column;   
+    }
+  }
+
+  
+  /* New buttons*/
+  #button {
+    width: 7em;
+    border-radius: 5px;
+    background: transparent;
+    border: 0.4rem #FFF solid;
+    padding:1em 2em;
+    font-size:1.5rem;
+    font-weight:bold;
+    
+}
+a {
+    display: block;
+    width: 100%;
+    line-height: 2em;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    color:white;
+}
+a:hover {
+    color: orange;
+    background: #eff;
+}
+  
+
+  
+  /*TO-DO: adjust header sizes*/
