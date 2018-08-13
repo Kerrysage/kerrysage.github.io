@@ -57,7 +57,7 @@ main {
 
 .left {
     background: #FF0;
-    background-image: url('Ryandbripark.jpg');
+    background-image: url('ryandbripark.jpg');
     transform-origin: left;
     width: 600px;
     transform: translateZ(-600px) rotateY(-90deg);
