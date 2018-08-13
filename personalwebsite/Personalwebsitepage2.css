@@ -50,7 +50,7 @@ main {
 .right {
     width: 600px;
     background: #880;
-    background-image: url('briandme.jpg');
+    background-image: url('Briandme.jpg');
     transform-origin: right;
     transform: translateX(0px) translateZ(-600px) rotateY(90deg);
 }
@@ -65,14 +65,14 @@ main {
 
 .top {
     background: #808;
-    background-image: url('Ohcharlie.jpg');
+    background-image: url('ohcharlie.jpg');
     transform-origin: top;
     transform: rotateX(90deg) translateY(-600px);
 }
 
 .bottom {
     background: #F0F;
-    background-image: url('Mebriandmom.jpg');
+    background-image: url('mebriandmom.jpg');
     transform-origin: bottom;
     transform: rotateX(90deg) rotateY(180deg) rotateZ(180deg) translateY(600px);
 }
