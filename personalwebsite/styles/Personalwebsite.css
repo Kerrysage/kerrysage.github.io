@@ -29,7 +29,14 @@
   
  
   
-  button:hover{
+  button1:hover{
+    /*sets the hover status of the buttons to a variable value*/
+    background-color: var(--button-hover-color);
+    border-color: var(--button-hover-color); 
+    cursor:pointer;
+  }
+
+  button2:hover{
     /*sets the hover status of the buttons to a variable value*/
     background-color: var(--button-hover-color);
     border-color: var(--button-hover-color); 
@@ -80,7 +87,7 @@
 
   
   /* New buttons*/
-  #button {
+  #button1 {
     width: 7em;
     border-radius: 5px;
     background: transparent;
@@ -89,6 +96,16 @@
     font-size:1.5rem;
     font-weight:bold;
     
+}
+  #button2 {
+  width: 7em;
+  border-radius: 5px;
+  background: transparent;
+  border: 0.4rem #FFF solid;
+  padding:1em 2em;
+  font-size:1.5rem;
+  font-weight:bold;
+  
 }
 a {
     display: block;
