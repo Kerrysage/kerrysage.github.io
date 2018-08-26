@@ -1,6 +1,6 @@
 body {
     perspective: 1000px;
-    background-image: url('Ocean2.jpg');
+    background-image: url('../images/Ocean2.jpg');
 }
 
 div {
@@ -36,28 +36,28 @@ main {
 
 .front {
     background: #088;
-    background-image: url('Babybricloseup.png');
+    background-image: url('../images/Babybricloseup.png');
     
 
 }
 
 .back {
     background: #0FF;
-    background-image: url('BriandRy.jpg');
+    background-image: url('../images/BriandRy.jpg');
     transform: translateZ(-600px) rotateX(180deg) rotateZ(180deg);
 }
 
 .right {
     width: 600px;
     background: #880;
-    background-image: url('Briandme.jpg');
+    background-image: url('../images/Briandme.jpg');
     transform-origin: right;
     transform: translateX(0px) translateZ(-600px) rotateY(90deg);
 }
 
 .left {
     background: #FF0;
-    background-image: url('ryandbripark.jpg');
+    background-image: url('../images/ryandbripark.jpg');
     transform-origin: left;
     width: 600px;
     transform: translateZ(-600px) rotateY(-90deg);
@@ -65,14 +65,14 @@ main {
 
 .top {
     background: #808;
-    background-image: url('ohcharlie.jpg');
+    background-image: url('../images/ohcharlie.jpg');
     transform-origin: top;
     transform: rotateX(90deg) translateY(-600px);
 }
 
 .bottom {
     background: #F0F;
-    background-image: url('mebriandmom.jpg');
+    background-image: url('../images/mebriandmom.jpg');
     transform-origin: bottom;
     transform: rotateX(90deg) rotateY(180deg) rotateZ(180deg) translateY(600px);
 }
