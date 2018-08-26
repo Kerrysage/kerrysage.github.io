@@ -7,7 +7,7 @@
 :root {
     /*initialize variables as will be used on the left side, standard state*/
     --bg-color: rgba(44, 129, 240, 0.0);
-    --bg-url: url('BriMomT.jpg');
+    --bg-url: url('../images/BriMomT.jpg');
     --button-hover-color: white (245, 239, 239, 0.982);
   }
   
@@ -61,7 +61,7 @@
   .right {
     /*ONLY CHANGE THE VARIABLE VALUES, and they'll apply to the correct children! :D*/
     --bg-color: rgba(10, 88, 52, 0.2);
-    --bg-url:url('Moab.jpg');
+    --bg-url:url('../images/Moab.jpg');
     --button-hover-color: rgba(92, 92, 92, 0.3);
   }
   
